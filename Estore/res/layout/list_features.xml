@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@layout/header_gradient">
+    
+    <Button
+        android:id="@+id/btngrstore"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Grocery Store" />
+
+    <Button
+        android:id="@+id/btnrecipies"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Recipes" />
+
+    <Button
+        android:id="@+id/btnscanner"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Barcode Scanner" />
+
+</LinearLayout>
